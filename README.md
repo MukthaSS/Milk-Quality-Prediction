@@ -23,10 +23,9 @@ A machine learning classifier that predicts milk quality (Low / Medium / High) b
 3. **Model Building**
    - Trains **SVM (linear kernel)**, **Decision Tree**, and **Random Forest** classifiers.
    - Hyperparameter tuning via GridSearchCV for optimal performance.
- ### About the model
-  * It's a machine learning model used for classification tasks. The goal is to find a decision boundary (called a hyperplane) that best separates the data into different classes (e.g., spam vs non-spam).
-  * Kernel: In SVM, a kernel is a function that transforms data into a higher-dimensional space where it might be easier to separate classes.
-  * Linear Kernel: When you use a linear kernel, the model tries to separate the data using a straight line (in 2D) or a flat plane (in 3D). This kernel is suitable when the data is linearly separable, meaning it can be divided by a straight line or plane.
+   - It's a machine learning model used for classification tasks. The goal is to find a decision boundary (called a hyperplane) that best separates the data into different classes (e.g., spam vs non-spam).
+   - Kernel: In SVM, a kernel is a function that transforms data into a higher-dimensional space where it might be easier to separate classes.
+   - Linear Kernel: When you use a linear kernel, the model tries to separate the data using a straight line (in 2D) or a flat plane (in 3D). This kernel is suitable when the data is linearly separable, meaning it can be divided by a straight line or plane.
 
 4. **Model Evaluation**
    - Accuracy, precision, recall, and F1‑score metrics.
