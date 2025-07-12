@@ -51,3 +51,7 @@ cd Milk-Quality-Prediction
 pip install -r requirements.txt
 jupyter notebook
 ```
+## 📈 Results
+- Best performing model: e.g., SVM (linear kernel) with ~95% accuracy.
+
+- Learn detailed model performance, including confusion matrix plots, by running the notebook.
